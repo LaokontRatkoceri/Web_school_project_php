@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s linear;   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 15.2%;
+}
+header .logo{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 500;
+}
+header .navbar a{
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 2rem;
+}
+header .navbar a:hover{
+    color: orangered;
+}
+header .icons a{
+    font-size: 2rem;
+    color: #000;
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: orangered;
+}
+nav.navbar {
+    margin: 0 auto;
+}
+
+#menu-bar{
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border: .1rem solid #000;
+    color: #000;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: flex;
+}
+body{
+    min-height: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+.about-section {
+    margin-top: 15px;
+    background: url(images/nike-show-image-of-about-us-css.jpg) no-repeat ;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 100px;
+}
+.border{
+    height: 4px;
+    width: 100px;
+    background-color: rgb(245,60,28);
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+button{
+    border: 0;
+    padding: 8px 15px;
+    background-color: rgb(245,60,28);
+    color: #fff;
+}
+button:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1200px) {
+     .inner-container{
+         padding: 80px;
+     }
+}
+@media screen and (max-width:1000px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width:  100%;
+
+    }
+
+}
+@media screen and (max-width:600px) {
+    .about-section{
+        padding: 0;
+    }   
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+@media screen and (width:375px){
+    header {
+        height: 140px;
+    }
+
+    .titulli-about {
+        padding-top: 100px;
+    }
+}

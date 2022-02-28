@@ -1,0 +1,234 @@
+body {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background: yellow;
+  background: cover;
+}
+
+nav.navbar {
+  padding-left: 108px;
+  margin-top: -81px;
+  margin-left: -110px;
+}
+
+a.home {
+margin-left: 12px;
+}
+
+a.home {
+color: black;
+}
+
+
+
+
+
+.card-wrap {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1000px) {
+  .card-wrap {
+    flex-direction: column;
+  }
+}
+
+.left {
+  background: url("https://24.media.tumblr.com/5ee00defcd6719954a5a8b9eeed23ac4/tumblr_mjw1tu5wbB1r98qz6o1_500.gif") center;
+  background: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.left:hover {
+  background: no-repeat 100px 100px;
+  background: cover;
+}
+
+.right {
+  background: url("https://68.media.tumblr.com/0001fbc97153d5279b29e1f33827f332/tumblr_no2cpbqKzI1qlwl18o1_500.gif") no-repeat;
+  background-color: black;
+  background: cover;
+  width: 50%;
+}
+
+.acc-button {
+  color: white;
+  opacity: 0.7;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 150px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background: black;
+}
+.acc-button:hover {
+  color: black;
+  background: white;
+  border: 2px solid white;
+  transition: background 0.5s;
+}
+
+.nike {
+  margin-top: -50px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: black;
+  margin-top: 200px;
+}
+
+h2 {
+  padding-left: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+h2:hover{
+  color: yellow   ;
+}
+
+.submit-wrap {
+  display: flex;
+}
+
+.FP {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #E55381;
+  font-family: "Oswald", sans-serif;
+}
+
+input[type=text] {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-bottom: solid 3px #969696;
+  margin-bottom: 20px;
+  transition: border 0.3s;
+}
+input[type=text]:focus {
+  border-bottom: solid 3px yellow;
+}
+
+input[type=password] {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-bottom: solid 3px #969696;
+  margin-bottom: 20px;
+  transition: border 0.3s;
+}
+input[type=password]:focus {
+  border-bottom: solid 3px yellow;
+}
+
+kicker {
+  color: white;
+  font-size: 15px;
+}
+
+.info-wrap {
+  margin-left: 30px;
+  margin-top: -15px;
+}
+.info-wrap .submit {
+  color: white;
+  opacity: 0.7;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background: black;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+}
+.info-wrap .submit:hover {
+  color: black;
+  background: white;
+  border: 2px solid white;
+  transition: background 0.5s;
+}
+.info-wrap label {
+  color: #E55381;
+  font-size: 20px;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  margin-right: 5px;
+  padding-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .right {
+      width: 101%;
+  }
+
+  .left {
+    width: 101%;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  .acc-button {
+    margin-top: 58px;
+  }
+
+  .nike {
+    margin-top: 11px;
+  }
+
+
+  header {
+    margin-top: 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 151px;
+    flex-direction: column;
+  }
+
+  body {
+    width: 0%;
+  }
+
+}
+
+
+@media only screen and (max-width: 375px){
+nav.navbar {
+    display: flex;
+    margin-left: 113%;
+    padding-top: 25px;
+    }
+  }
+
+
+
